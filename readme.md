@@ -16,7 +16,7 @@ This is a resume application of CSE 485 Capstone Git Skills Module.
 - **Git**: Version control for project tracking and collaboration.
 - **GitHub**: Repository hosting and project management.
 
-## Git Skills Demonstrated
+## Git Skills Learned Through Git Skills Module
 - **Repository Initialization and Cloning**: Initializing a repository and cloning it for collaboration.
 - **Branching and Merging**: Creating branches to develop features independently and merging them back.
 - **Commit History Management**: Organizing commits with meaningful messages to track changes.
@@ -24,5 +24,5 @@ This is a resume application of CSE 485 Capstone Git Skills Module.
 
 ## Contact
 **Author**: Saharsh Goenka  
-**Course**: CSE 485 Capstone Project  
+**Course**: CSE 485 Capstone 1  
 **Institution**: Arizona State University
