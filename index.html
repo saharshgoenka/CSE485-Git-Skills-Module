@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saharsh Goenka - Resume</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --accent-color: #3498db;
+            --text-color: #2c3e50;
+            --light-gray: #ecf0f1;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f6fa;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 0;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .contact-info a {
+            color: var(--accent-color);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .section {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .section h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .education-item, .experience-item, .project-item {
+            margin-bottom: 20px;
+        }
+
+        .education-header, .experience-header, .project-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .education-title, .experience-title, .project-title {
+            font-weight: bold;
+            color: var(--secondary-color);
+        }
+
+        .skills-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .skill-category {
+            margin-bottom: 10px;
+        }
+
+        .skill-category strong {
+            color: var(--secondary-color);
+        }
+
+        ul {
+            list-style-position: inside;
+            margin-left: 20px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            .contact-info {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .education-header, .experience-header {
+                flex-direction: column;
+                gap: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Saharsh Goenka</h1>
+        <div class="contact-info">
+            <a href="tel:5109458568"><i class="fas fa-phone"></i> (510)-945-8568</a>
+            <a href="https://saharsh.me/"><i class="fas fa-globe"></i> saharsh.me</a>
+            <a href="https://github.com/saharshgoenka"><i class="fab fa-github"></i> /SaharshGoenka</a>
+            <a href="https://linkedin.com/in/saharshgoenka"><i class="fab fa-linkedin"></i> /SaharshGoenka</a>
+            <a href="mailto:sgoenka1@asu.edu"><i class="fas fa-envelope"></i> sgoenka1@asu.edu</a>
+        </div>
+    </header>
+
+    <section class="section">
+        <h2>Education</h2>
+        <div class="education-item">
+            <div class="education-header">
+                <div class="education-title">Arizona State University</div>
+                <div>Aug. 2021 - May 2025</div>
+            </div>
+            <div>Bachelor of Science in Computer Science | Concentration in Software Engineering</div>
+            <div>Current GPA: 4.22/4.00 - Dean's List (all semesters)</div>
+            <div><strong>Relevant Coursework:</strong> Data Structures and Algorithms, Software Engineering, Database Management, Distributed Software Development, Operating Systems, Object-Oriented Programming, Discrete Math Structures</div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Technical Skills</h2>
+        <div class="skills-list">
+            <div class="skill-category">
+                <strong>Languages:</strong> Python, C/C++, Java, Javascript, PostrgreSQL, SQL, HTML, CSS
+            </div>
+            <div class="skill-category">
+                <strong>Frameworks and Libraries:</strong> Snowflake, Boto3 (AWS Lambda, S3 & SES), Flask, Pandas, MatPlotLib, NumPy, Next(.js), React(.js), Prisma, Selenium, Puppeteer
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Professional Experience</h2>
+        <div class="experience-item">
+            <div class="experience-header">
+                <div class="experience-title">Nutanix - Software Engineer (MTS) Intern</div>
+                <div>May 2024 - Aug. 2024</div>
+            </div>
+            <ul>
+                <li>Built a notifications framework to provide customers with key insights to increase customer engagement</li>
+                <li>Researched data visualization techniques to showcase product value and increase product renewals</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <div class="experience-header">
+                <div class="experience-title">SolarSPELL Initiative - Software Development Intern</div>
+                <div>Jan. 2024 - May 2024</div>
+            </div>
+            <ul>
+                <li>Implemented features for SolarSpell's Library Management System using React.js, Django, and PostgreSQL</li>
+                <li>Conducted user research, refined project requirements, and delivered organization-wide presentation</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <div class="experience-header">
+                <div class="experience-title">PERSUE Lab - Undergraduate Researcher</div>
+                <div>Sep. 2023 - Present</div>
+            </div>
+            <ul>
+                <li>Analyzing privacy data collection by apps to identify trends in emerging app marketplaces (Zoom, OpenAI)</li>
+                <li>Utilizing web scraping tools to aggregate app privacy data and generate insights on app privacy policy changes</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Select Technical Projects</h2>
+        <div class="project-item">
+            <div class="project-header">
+                <div class="project-title">ML Powered File Search Engine</div>
+                <div>2023</div>
+            </div>
+            <ul>
+                <li>Co-led team at hackathon to develop ML Powered Search Engine for Non-Profit Preservation of the Fox Valley</li>
+                <li>Used 5 ML models from Hugging Face to generate descriptive titles and 10 tags for text, image, and video files</li>
+            </ul>
+        </div>
+
+        <div class="project-item">
+            <div class="project-header">
+                <div class="project-title">Social Media Site - TwitFace</div>
+                <div>2023</div>
+            </div>
+            <ul>
+                <li>Developed a social media site which is a mashup of Twitter/Facebook and used PostgreSQL database</li>
+                <li>Created pages for the user to register, post tweets with pictures, post comments, and edit their account settings</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Activities</h2>
+        <div class="project-item">
+            <div class="project-header">
+                <div class="project-title">sunhacks - Co-Lead Director</div>
+                <div>Aug. 2022 - Present</div>
+            </div>
+            <ul>
+                <li>Managing a team of 20 organizers and $40,000 budget to host the largest hackathon in Arizona with 500 attendees</li>
+            </ul>
+        </div>
+
+        <div class="project-item">
+            <div class="project-header">
+                <div class="project-title">Software Developers Association - Industry Relations Officer</div>
+                <div>Jan. 2024 - May 2024</div>
+            </div>
+            <ul>
+                <li>Bringing new sponsors, managing meetings with industry speakers, and maintaining relationships with companies</li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
