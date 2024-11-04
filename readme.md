@@ -26,6 +26,3 @@ This is a resume application of CSE 485 Capstone Git Skills Module.
 **Author**: Saharsh Goenka  
 **Course**: CSE 485 Capstone Project  
 **Institution**: Arizona State University
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
